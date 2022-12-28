@@ -10,6 +10,6 @@ This repo is designed to store all the problems and challenges presented in **[G
 * Encourage critical thinking
 
 ## Sections
-1. [Sliding Window](https://github.com/vincepogz/PATTERNS-FOR-CODING-QUESTIONS/tree/master/01-SLIDING%20WINDOW))
+1. [Sliding Window](https://github.com/vincepogz/PATTERNS-FOR-CODING-QUESTIONS/tree/master/01-SLIDING%20WINDOW)
 
 **`*README will be in a constant update*`**

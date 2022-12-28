@@ -2,7 +2,7 @@
 In my on words, sliding window refers to the strategy where an area select an element or group of element to be used to perform solutions
 
 Problems in this repo are:
-* Sliding Window: Brute-Force
+* [Sliding Window: Brute-Force](https://github.com/vincepogz/PATTERNS-FOR-CODING-QUESTIONS/tree/master/01-SLIDING%20WINDOW)
 * Sliding Window: Optimal Solution
 * Problem: Sub-Array with Maximum Sum of Size K
 * Problem: Smallest Sub-Array with Greatest Sum
