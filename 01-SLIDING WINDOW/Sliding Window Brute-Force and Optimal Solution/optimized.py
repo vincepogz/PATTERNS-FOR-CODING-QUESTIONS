@@ -10,14 +10,14 @@ def sliding_window_optimized(array, k):
     windowStart, windowEnd, _sum= 0, 0, 0
 
     # We will create our window starting from 0 and go through the array
-    for windowEnd in range(len(array)):
+    for windowEnd in range(len(array)): #O(n)
         _sum += array[windowEnd] #Sum the element
 
         
         #If the window is larger than K-Elements, substract the first element and add the next element
         #Since we know that the _sum is the addition of 5 elements, we will add it to the result
         #We will continue this until we hit the last element
-        if windowEnd >= k - 1:
+        if windowEnd >= k - 1: #O(1)
             average = _sum/k
             result.append(average)
 
