@@ -23,15 +23,18 @@ def subarrayLength(array, S):
         
         #Iterate to the next elements, grab each sum per visit
         for j in range(i,len(array)):
-            
             currSum += array[j]
             arraySum.append(array[j])
+
         #If the sum is >=S, compare the length
             if currSum >= S:
-                print(arraySum)
                 minLength = min(minLength, len(arraySum))
-                break
-                
+
+                #Clear current array, save the first element
+                currSum = array[i]                
+                arraySum.clear()
+                arraySum.append(array[i])
+
 
     return minLength
 
